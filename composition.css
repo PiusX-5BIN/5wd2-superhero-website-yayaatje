@@ -1,5 +1,37 @@
 
-#Bannerpic {
-    margin-left: 0px;
-    margin-right: 0px;
+
+header {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header nav {
+    margin-bottom: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    background: url('images/R.jpg');
+    background-size: cover;
+    height: 170px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
 }
