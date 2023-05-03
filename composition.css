@@ -1,5 +1,9 @@
 
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 header {
     padding: 20px;
     text-align: center;
@@ -25,9 +29,10 @@ header h1 {
 }
 
 .hero-image {
-    background: url('images/R.jpg');
+    background: url('https://lumiere-a.akamaihd.net/v1/images/au_article_header_spider-man60th_d_e6b6debe.jpeg?region=1,0,1363,767'); 
+    width: 100%
     background-size: cover;
-    height: 170px;
+    height: 300px;
     position: absolute;
     top: 0;
     left: 0;
@@ -35,3 +40,90 @@ header h1 {
     bottom: 0;
     opacity: 0.8;
 }
+
+.comicpic {
+    width: 500px;
+    height: auto;
+}
+
+#profilepic {
+    width: 650px;
+    height: 750px;
+    margin-top: 60px;
+    margin-left: 156px;
+    
+}
+
+#profile-title {
+    margin-top: 200px;
+    margin-left: 43%;
+
+}
+
+#profile-spider-man {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#profile-info {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#testimonials-title {
+    margin-top: 180px;
+    margin-left: 40%;
+}
+
+.testimonial2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.testimonial {
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.testimonialpic {
+    width: 180px;
+    height: 180px;
+    margin-left: 50px;
+    padding-left: 50px;
+    border-radius: 30px;
+}
+
+.testimonial-info {
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+#comic-title {
+    margin-left: 43%;
+    margin-top: 180px;
+    margin-bottom: 80px;
+}
+
+.comicpic {
+    width: 200px;
+    height: 300px;
+    margin-left: 80px;
+}
+
+.comic {
+    margin-left: 80px;
+
+}
+
+.comic-release {
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+
+
+
