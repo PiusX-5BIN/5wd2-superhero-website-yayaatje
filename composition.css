@@ -4,76 +4,110 @@
     margin: 0;
     padding: 0;
 }
-header {
-    padding: 20px;
+
+
+nav {
+	height: 50px;
+    width: 1365px;
+    background-color:black;
+	
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 50px
+}
+
+nav a {
+	font-size: 30px;
+	text-decoration: none;
+    color:azure;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/* Header Banner Styles */
+.banner {
+	position: relative;
+}
+
+.banner img {
+    width: 100px;
+	height: 650px;
+	object-fit: cover;
+	filter: brightness(50%);
+}
+
+.banner-text {
+	position: absolute;
+    top: 400px;
+	transform: translate(-50%, -50%);
     text-align: center;
-    position: relative;
+    margin-left: 680px;
+    margin-right: 10px;
+    color: azure;
 }
 
-header nav {
-    margin-bottom: 20px;
+.banner-text h1 {
+	font-size: 90px;
+    font-family: fantasy;
+    font-weight: 100;
+    margin-bottom: 50px;
+    margin-top: 120px;
+    color:azure
+
 }
 
-header nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
+.banner-text p {
+	font-size: 35px;
 }
 
-header nav ul li {
-    margin-right: 20px;
-}
 
-header h1 {
-    margin-bottom: 20px;
-}
 
-.hero-image {
-    background: url('https://lumiere-a.akamaihd.net/v1/images/au_article_header_spider-man60th_d_e6b6debe.jpeg?region=1,0,1363,767'); 
-    width: 100%
-    background-size: cover;
-    height: 300px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.8;
-}
-
-.comicpic {
-    width: 500px;
-    height: auto;
+#pSuperheroProfile {
+    margin-bottom: 80px;
 }
 
 #profilepic {
-    width: 650px;
-    height: 750px;
+    width: 757px;
+    height: 1000px;
     margin-top: 60px;
-    margin-left: 156px;
+    margin-left: 30%;
+    margin-bottom: 100px;
+   
+   
     
 }
 
+
 #profile-title {
-    margin-top: 200px;
-    margin-left: 43%;
+    margin-top: 80px;
+    margin-left: 60%;
+    margin-bottom: 40px;
+    margin-top: 70px;
 
 }
 
 #profile-spider-man {
     margin-top: 50px;
-    margin-left: 40px;
+    margin-left: 57%;
+    margin-bottom: 50px;
 }
 
 #profile-info {
     margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 357px;
 }
 
 #testimonials-title {
     margin-top: 180px;
-    margin-left: 40%;
+    margin-left: 50%;
+    margin-bottom: 100px;
 }
 
 .testimonial2 {
@@ -84,46 +118,73 @@ header h1 {
 }
 
 .testimonial {
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 
 }
 
 .testimonialpic {
-    width: 180px;
-    height: 180px;
-    margin-left: 50px;
+    width: 250px;
+    height: 300px;
+    margin-left: 150px;
     padding-left: 50px;
     border-radius: 30px;
 }
 
 .testimonial-info {
-    padding-left: 50px;
+    padding-left: 160px;
     padding-right: 100px;
+    margin-bottom: 30px;
 }
 
 #comic-title {
-    margin-left: 43%;
+    margin-left: 58%;
     margin-top: 180px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .comicpic {
-    width: 200px;
-    height: 300px;
-    margin-left: 80px;
+    width: 40%;
+    height: 40%;
+    margin-left: 50%;
+    margin-bottom: 80px;
+    margin-top: 30px;
 }
 
 .comic {
-    margin-left: 80px;
-
+    margin-left: 50%;
+    
 }
 
 .comic-release {
-    margin-left: 80px;
+    margin-left: 50%;
     margin-bottom: 40px;
+    color:azure;
+    
 }
+
+#madeby {
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    font-size: 30px;
+}
+
+
+
+      
+
+
+   
+
+
+
+
+
+
+
+
 
 
 

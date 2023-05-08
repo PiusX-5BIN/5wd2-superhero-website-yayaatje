@@ -1,0 +1,29 @@
+.tussentitels {
+    font-weight:400;
+    font-family:fantasy;
+    font-size: 70px;
+    color:maroon;
+    
+}
+
+body {
+    background-image: url(https://i.pinimg.com/400x/af/e9/12/afe91284af867220f4ae2aa7f929411d.jpg);
+}
+
+.paragrafen {
+    color:azure;
+    font-size:30px;
+    font-family: sans-serif;
+
+}
+
+.minititel {
+    color:azure;
+    font-family: sans-serif;
+    font-size: 40px;
+
+}
+
+.pictures {
+    border: solid 15px maroon;
+}
